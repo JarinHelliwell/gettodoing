@@ -29,6 +29,9 @@
 
      $inspect(todoList);
 
+     import Yay from '$lib/images/HomestarHappy2.svg';
+     import Mad from '$lib/images/HomestarMad.svg';
+
 </script>
 
      <div class=adder>
@@ -42,6 +45,15 @@
      <ul>
           {#each todoList as item, index}
                <li>
+                    <div class="motivate">
+                    {#if (item.done)}
+                         <img src="{Yay}" alt="Homestar Runner looking happy" height=100px width=100px>
+                         <p>"You're gonna win!"</p>
+                    {:else}
+                         <img src="{Mad}" alt="Homestar Runner looking mad" height=100px width=100px>
+                         <p>"Keep on doing it!"</p>
+                    {/if}
+                    </div>
                     <input type="checkbox" bind:checked={item.done}>
                     <span class:done={item.done}>{item.text}</span>
                     <button type="button" onclick={() => removeItem(index)}>X</button>
@@ -64,6 +76,19 @@
      }
      ul {
           list-style: none;
+     }
+     li {
+          display: flex;
+          align-items: center;
+          margin: 2vw 10vw 2vw 15vw;
+     }
+     .motivate p {
+          font-size: 1em;
+          margin-top: -0.5vw;
+     }
+     span {
+          margin: 2vw;
+          font-size: 1em;
      }
      span.done {
           color: grey;
