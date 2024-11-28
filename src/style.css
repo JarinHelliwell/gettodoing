@@ -1,5 +1,5 @@
 body {
-     font-family: "Atma", sans-serif;
+     font-family: "Poppins", sans-serif;
      font-size: 1.4em;
      background-color: #81dbfd;
      margin: 2em;
@@ -16,8 +16,12 @@ body {
 .intro img {
      padding: 2em;
 }
+h2 {
+     font-family: 'Atma', sans-serif;
+}
 button {
      background-color: #008001;
+     font-family: 'Atma', sans-serif;
      font-size: 1em;
      color: white;
      margin: 1vw 1vw 1vw 3vw;

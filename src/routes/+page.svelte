@@ -25,12 +25,9 @@
 
 <style>
      h1 {
-          font-family:Arial, Helvetica, sans-serif;
-          font-size: 3.5em;
+          font-size: 3em;
      }
      h2 {
-          font-family: 'Atma', sans-serif;
-          font-weight:normal;
           font-size: 1.4em;
           margin-top: -1.3em;
      }
@@ -48,6 +45,7 @@
           display: flex;
           flex-direction: row;
           font-weight: bold;
+          font-family: 'Atma', sans-serif;
           color: #724C00;
           font-size: 1.3em;
           margin-top: -2em;
