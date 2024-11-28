@@ -1,10 +1,24 @@
 body {
-     font-family: "Poppins", sans-serif;
-     font-size: 1.2em;
+     font-family: "Atma", sans-serif;
+     font-size: 1.4em;
      background-color: #81dbfd;
      margin: 2em;
-}
-h1 {
      display: flex;
-     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+}
+.intro {
+     display: flex;
+     align-items: center;
+     margin: -1em 4em 2em 4em;
+     max-width: 850px;
+}
+.intro img {
+     padding: 2em;
+}
+button {
+     background-color: #008001;
+     font-size: 1em;
+     color: white;
+     margin: 1vw 1vw 1vw 3vw;
 }

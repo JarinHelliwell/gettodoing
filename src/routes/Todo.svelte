@@ -35,7 +35,7 @@
 </script>
 
      <div class=adder>
-          <h2>Whatcha Got?</h2>
+          <h2>What Is It? What Is It? What Is It?</h2>
           <form onsubmit={addItem}>
                <input type="text" bind:value={todoItem}>
                <button type="submit">Add</button>
@@ -47,10 +47,10 @@
                <li>
                     <div class="motivate">
                     {#if (item.done)}
-                         <img src="{Yay}" alt="Homestar Runner looking happy" height=100px width=100px>
-                         <p>"You're gonna win!"</p>
+                         <img src="{Yay}" alt="Homestar Runner looking happy" height=150px width=150px>
+                         <p>"You about to win!"</p>
                     {:else}
-                         <img src="{Mad}" alt="Homestar Runner looking mad" height=100px width=100px>
+                         <img src="{Mad}" alt="Homestar Runner looking mad" height=150px width=150px>
                          <p>"Keep on doing it!"</p>
                     {/if}
                     </div>
@@ -62,39 +62,45 @@
      </ul>
 
      {#if (todoList.length == 0)}
-          <button disabled type="button" class="clear">Burninate!</button>
+          <button disabled type="button" class="clear">BALEETED!</button>
      {:else}
-          <button type="button" class="clear" onclick={nuke}>Burninate!</button>
+          <button type="button" class="clear" onclick={nuke}>DELETED!</button>
      {/if}
 
 <!-- Styles in here will only apply to this one component, not the entire app -->
 <style>
-     .adder {
-          display: flex;
-          align-items: center;
-          flex-direction: column;
+     .adder input {
+          height: 1.4em;
+          font-size: 1.4em;
+          margin-left: 2em;
      }
      ul {
           list-style: none;
+          align-self: flex-start;
+          margin-left: 4vw;
      }
      li {
           display: flex;
           align-items: center;
+          font-family:Arial, Helvetica, sans-serif;
           margin: 2vw 10vw 2vw 15vw;
      }
+     .motivate {
+          margin-right: 2vw;
+     }
      .motivate p {
-          font-size: 1em;
-          margin-top: -0.5vw;
+          font-size: 0.8em;
+          margin-top: -0.3vw;
      }
      span {
-          margin: 2vw;
-          font-size: 1em;
+          margin: 2vw 6vw 2vw 2vw;
+          font-size: 1.4em;
      }
      span.done {
           color: grey;
           text-decoration: line-through;
      }
      .clear {
-          margin: 0em 44vw;
+          margin: 10vw 15vw;
      }
 </style>
