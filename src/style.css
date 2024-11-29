@@ -6,6 +6,7 @@ body {
      display: flex;
      flex-direction: column;
      align-items: center;
+     max-width: 1200px;
 }
 .intro {
      display: flex;
@@ -22,7 +23,7 @@ h2 {
 button {
      background-color: #008001;
      font-family: 'Atma', sans-serif;
-     font-size: 1em;
+     font-size: 1.2em;
      color: white;
-     margin: 1vw 1vw 1vw 3vw;
+     margin-left: 2em;
 }

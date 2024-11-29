@@ -70,30 +70,31 @@
 <!-- Styles in here will only apply to this one component, not the entire app -->
 <style>
      .adder input {
-          height: 1.4em;
+          height: 1.5em;
           font-size: 1.4em;
           margin-left: 2em;
      }
      ul {
           list-style: none;
           align-self: flex-start;
-          margin-left: 4vw;
+          margin-left: 2vw;
      }
      li {
           display: flex;
           align-items: center;
           font-family:Arial, Helvetica, sans-serif;
-          margin: 2vw 10vw 2vw 15vw;
+          margin-left: 5em;
+          margin-top: 2em;
      }
      .motivate {
-          margin-right: 2vw;
+          margin-right: 2em;
      }
      .motivate p {
           font-size: 0.8em;
           margin-top: -0.3vw;
      }
      span {
-          margin: 2vw 6vw 2vw 2vw;
+          margin: 2em;
           font-size: 1.4em;
      }
      span.done {

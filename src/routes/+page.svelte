@@ -10,7 +10,7 @@
 <div class=intro>
      <div>
           <p>Say young man, young man, young man! You look like a fine haver of stuff to do! You wanna get it done? Stop being a total brain-for-brains and get yourself ahead of the game-forest-fire!</p>
-          <p>Need a place to write your to do stuff? I got a place to write your to do stuff! Have two places to write your to do stuff! Bwa ha ha! I only got one place to write to do stuff. You get it done, girl!</p>
+          <p>Need a place to write your "To Do" stuff? I got a place to write your "To Do" stuff! Have two places to write your "To Do" stuff! Bwa ha ha! I only got one place to write "To Do" stuff. You get it down and get it done, girl!</p>
      </div>
      <div>
           <img src="{Happy}" alt="Homestar Runner looking happy" height=200px width=200px>
