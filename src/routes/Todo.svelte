@@ -27,6 +27,11 @@
           todoList = [];
      }
 
+     function wrongWord(){
+          const text = document.getElementById("baleeted");
+          text.style.display = "block";
+     }
+
      $inspect(todoList);
 
      import Yay from '$lib/images/HomestarHappy2.svg';
@@ -47,14 +52,14 @@
                <li>
                     <div class="motivate">
                     {#if (item.done)}
-                         <img src="{Yay}" alt="Homestar Runner looking happy" height=150px width=150px>
-                         <p>"You about to win!"</p>
+                         <img src="{Yay}" alt="Homestar Runner looking happy" height=135px width=135px>
+                         <p>Hurray! All done!</p>
                     {:else}
-                         <img src="{Mad}" alt="Homestar Runner looking mad" height=150px width=150px>
-                         <p>"Keep on doing it!"</p>
+                         <img src="{Mad}" alt="Homestar Runner looking mad" height=135px width=135px>
+                         <p>Still gotta do!</p>
                     {/if}
                     </div>
-                    <input type="checkbox" bind:checked={item.done}>
+                    <input class="checkplease" type="checkbox" bind:checked={item.done}>
                     <span class:done={item.done}>{item.text}</span>
                     <button type="button" onclick={() => removeItem(index)}>X</button>
                </li>
@@ -62,46 +67,13 @@
      </ul>
 
      {#if (todoList.length == 0)}
-          <button disabled type="button" class="clear">BALEETED!</button>
+          <button type="button" class="clear" onclick={wrongWord}>BALEETED!</button>
+          <p id="baleeted" class="baleeted">Oh, um... That's the wrong word.</p>
      {:else}
           <button type="button" class="clear" onclick={nuke}>DELETED!</button>
      {/if}
 
 <!-- Styles in here will only apply to this one component, not the entire app -->
 <style>
-     .adder input {
-          height: 1.5em;
-          font-size: 1.4em;
-          margin-left: 2em;
-     }
-     ul {
-          list-style: none;
-          align-self: flex-start;
-          margin-left: 2vw;
-     }
-     li {
-          display: flex;
-          align-items: center;
-          font-family:Arial, Helvetica, sans-serif;
-          margin-left: 5em;
-          margin-top: 2em;
-     }
-     .motivate {
-          margin-right: 2em;
-     }
-     .motivate p {
-          font-size: 0.8em;
-          margin-top: -0.3vw;
-     }
-     span {
-          margin: 2em;
-          font-size: 1.4em;
-     }
-     span.done {
-          color: grey;
-          text-decoration: line-through;
-     }
-     .clear {
-          margin: 10vw 15vw;
-     }
+
 </style>
