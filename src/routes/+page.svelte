@@ -12,7 +12,7 @@
 <h2>With the help of Homestar Runner</h2>
 <div class=intro>
      <div>
-          <p>Say young man, young man, young man! You look like a fine haver of stuff to do! You wanna get it done? Stop being a total brain-for-brains and get yourself ahead of the game-forest-fire!</p>
+          <p>Say young man, young man, young man! You look like a fine haver of stuff to do! You wanna get it done? Stop being a total brain-for-brains and get yourself ahead of the game like a true champeen!</p>
           <p>Need a place to write your "To Do" stuff? I got a place to write your "To Do" stuff! Have two places to write your "To Do" stuff! Bwa ha ha! I only got one place to write "To Do" stuff. You get it down and get it done, girl!</p>
      </div>
      <div>

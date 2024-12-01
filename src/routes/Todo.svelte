@@ -61,7 +61,7 @@
                     </div>
                     <input class="checkplease" type="checkbox" bind:checked={item.done}>
                     <span class:done={item.done}>{item.text}</span>
-                    <button type="button" onclick={() => removeItem(index)}>X</button>
+                    <button class="removeX" type="button" onclick={() => removeItem(index)}>X</button>
                </li>
           {/each}
      </ul>
