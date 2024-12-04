@@ -75,7 +75,7 @@
                          <p>Still gotta do!</p>
                     {/if}
                     </div>
-                    <input class="checkplease" type="checkbox" bind:checked={item.done}>
+                    <input class="checkplease" type="checkbox" bind:checked={item.done} onchange={updateList}>
                     <span class:done={item.done}>{item.text}</span>
                     <button class="removeX" type="button" onclick={() => removeItem(index)}>X</button>
                </li>
