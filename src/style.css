@@ -56,10 +56,18 @@ button {
      margin-left: 3em;
 }
 /* To Do Styles */
+form {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+}
 .adder input {
-     height: 1.5em;
+     height: 1.2em;
      font-size: 1.4em;
      margin-left: 2em;
+}
+.adder button {
+     margin-left: 1em;
 }
 ul {
      list-style: none;
