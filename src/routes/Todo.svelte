@@ -1,7 +1,20 @@
 <!-- Component -->
 <script>
+     import {onMount} from 'svelte';
      let todoItem = $state('');
      let todoList = $state([]);
+     let storedList;
+
+     onMount(() => {
+          storedList = localStorage.getItem('storedList');
+          if (storedList) {
+               todoList = (JSON.parse(storedList));
+          }
+     })
+
+     function updateList() {
+          return storedList = localStorage.setItem('storedList', JSON.stringify(todoList));
+     }
 
      function cap(w) {
           return w.charAt(0).toUpperCase() + w.slice(1);
@@ -16,15 +29,18 @@
                text: cap(todoItem),
                done: false,
           }];
+          updateList();
           todoItem = '';
      }
 
      function removeItem(index) {
           todoList = todoList.toSpliced(index, 1);
+          updateList();
      }
 
      function nuke(){
           todoList = [];
+          localStorage.clear();
      }
 
      function wrongWord(){
