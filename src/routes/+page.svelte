@@ -8,14 +8,14 @@
 
 </script>
 
-<h1>GET TO DOING!</h1>
-<h2>With the help of Homestar Runner</h2>
+<h1><span class=star>&#11089;</span> GET TO DOING! <span class=star>&#11089;</span></h1>
+<h2><span class=star2>&#11089;</span> With the help of Homestar Runner <span class=star2>&#11089;</span></h2>
 <div class=intro>
      <div>
           <p>Say young man, young man, young man! You look like a fine haver of stuff to do! You wanna get it done? Stop being a total brain-for-brains and get yourself ahead of the game like a true champeen!</p>
           <p>Need a place to write your <strong>"To Do"</strong> stuff? I got a place to write your <strong>"To Do"</strong> stuff! Have two places to write your <strong>"To Do"</strong> stuff! <em>Bwa ha ha!</em> I only got one place to write <strong>"To Do"</strong> stuff. You get it down and get it done, girl!</p>
      </div>
-     <div>
+     <div class="homestar">
           <img src="{Happy}" alt="Homestar Runner looking happy" height=200px width=200px>
           <div class="thisGuy">
                <p>This Guy</p>
