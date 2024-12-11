@@ -140,10 +140,10 @@ span.done {
           margin: 1vw;
      }
      h1 {
-          font-size: 2em;
+          font-size: 1.4em;
      }
      h2 {
-          font-size: 0.9em;
+          font-size: 0.8em;
      }
      .star {
           font-size: 0.8em;
@@ -184,6 +184,7 @@ span.done {
           height: 1.2em;
           font-size: 1em;
           margin-left: 1em;
+          max-width: 200px;
      }
      .motivate img {
           height: 80px;
