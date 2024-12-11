@@ -15,12 +15,12 @@ h1 {
 }
 .star {
      font-size: 1em;
-     color: #ffffff;
+     color: #D80000;
      margin: 0;
 }
 .star2 {
      font-size: 1.3em;
-     color: #ffffff;
+     color: #D80000;
      margin: 0em 0.5em 0em 0.5em;
 }
 h2 {
@@ -40,7 +40,6 @@ img {
 .intro img {
      padding: 2em;
 }
-
 button {
      background-color: #008001;
      font-family: 'Atma', sans-serif;
@@ -49,7 +48,7 @@ button {
      border-color: #989898;
      border-style: solid;
      border-radius: 50%;
-     padding: 0.6em;
+     padding: 0.5em;
      margin-left: 2em;
 }
 button:active {
@@ -123,8 +122,9 @@ span.done {
 }
 .removeX {
      margin-right: 2em;
+     margin-top: -0.4em;
      border-radius: 20%;
-     padding: 0.1em 0.5em;
+     padding: 0em 0.5em;
 }
 .clear {
      margin: 10vw 15vw;
