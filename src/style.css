@@ -186,9 +186,14 @@ span.done {
           margin-left: 1em;
           max-width: 200px;
      }
+     .motivate {
+          font-size: 0.5em;
+          margin-left: 1vw;
+          margin-right: 1em;
+     }
      .motivate img {
-          height: 80px;
-          width: 80px;
+          height: 60px;
+          width: 60px;
           padding-right: 3vw;
      }
      .checkplease {
@@ -200,10 +205,6 @@ span.done {
      li {
           margin-left: 0;
           font-size: 0.7em;
-     }
-     .motivate {
-          margin-left: 1vw;
-          margin-right: 1em;
      }
      .baleeted {
           font-size: 0.7em;
