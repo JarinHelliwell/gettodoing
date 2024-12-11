@@ -1,0 +1,13 @@
+{
+     "name": "Get To Doing!",
+     "short_name": "ToDoing",
+     "start_url": "/",
+     "display": "standalone",
+     "icons": [
+          {
+               "src": "HRIcon.png",
+               "type": "image/png",
+               "sizes": "512x512"
+          }
+     ]
+}

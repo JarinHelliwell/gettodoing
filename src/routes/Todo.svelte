@@ -59,7 +59,7 @@
           <h2>What Is It? What Is It? What Is It?</h2>
           <form onsubmit={addItem}>
                <input id="addToDoItem" type="text" bind:value={todoItem}>
-               <button type="submit">Add</button>
+               <button type="submit">ADD</button>
           </form>
      </div>
 
