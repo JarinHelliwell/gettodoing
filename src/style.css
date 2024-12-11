@@ -188,7 +188,6 @@ span.done {
      }
      .motivate {
           font-size: 0.6em;
-          margin-left: 0.2em;
           margin-right: 1em;
      }
      .motivate img {
@@ -200,7 +199,7 @@ span.done {
           transform: scale(2);
      }
      ul {
-          margin-left: 2vw;
+          margin-left: 1.5vw;
      }
      li {
           margin-left: 0;
