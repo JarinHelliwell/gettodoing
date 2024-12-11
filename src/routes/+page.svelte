@@ -8,8 +8,8 @@
 
 </script>
 
-<h1><span class=star>&#11089;</span> GET TO DOING! <span class=star>&#11089;</span></h1>
-<h2><span class=star2>&#11089;</span> With the help of Homestar Runner <span class=star2>&#11089;</span></h2>
+<h1>GET TO DOING!</h1>
+<h2>With the help of Homestar Runner</h2>
 <div class=intro>
      <div>
           <p>Say young man, young man, young man! You look like a fine haver of stuff to do! You wanna get it done? Stop being a total brain-for-brains and get yourself ahead of the game like a true champeen!</p>
