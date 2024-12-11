@@ -188,6 +188,7 @@ span.done {
      }
      .motivate {
           font-size: 0.6em;
+          margin-left: 0;
           margin-right: 1em;
      }
      .motivate img {
